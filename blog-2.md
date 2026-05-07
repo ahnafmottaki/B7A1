@@ -1,7 +1,5 @@
 # How `Pick` and `Omit` prevent code duplication
 
----
-
 Typescript's Pick and Omit utility type is used in every project to prevent code duplication while creating slices of a master interface. By the end of the blog, You will know `why` and `how` to use Pick and Omit.
 
 Let's say in your react or any project, you are working with a `Book` interface and we will call it the master interface.
