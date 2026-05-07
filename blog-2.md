@@ -20,7 +20,7 @@ interface Book {
 
 Now you encounters a situation where you need to work with only the book information, you don't need the author's information.There's two way to achieve that.
 
-    1. either you duplicate it like below
+ > either you duplicate it like below
 
 ```typescript
 interface Book {
@@ -33,7 +33,7 @@ interface Book {
 
 You are writing the same code again just without the authors infomation. And you are breaking the most important rule of coding which is DRY (Don't Repeat Yourself). You can also make any mistake while writing the same type again. Rather,
 
-    2. You can  use Typescript's Omit Utility type
+  > You can  use Typescript's Omit Utility type
 
 ```typescript
 type BookInformation = Omit<Book, "author">;
