@@ -71,3 +71,5 @@ type Author = Pick<Book, "author">;
 ```
 
 So using Typescript's utility types like `Pick` and `Omit` prevents code duplication and unexpected errors while building or extracting type from a master interface. That's why these utility types is used in almost every typescript project.
+
+[_Back To Top_](#how-pick-and-omit-prevent-code-duplication)
